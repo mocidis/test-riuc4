@@ -1,7 +1,7 @@
 .PHONY: all clean
 
 C_DIR := ../common
-C_SRCS := my-pjlib-utils.c
+C_SRCS := ansi-utils.c
 
 SERIAL_DIR := ../serial
 SERIAL_SRCS := riuc4_uart.c serial_utils.c
